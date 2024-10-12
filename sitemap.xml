@@ -110,14 +110,14 @@
 
   
   <url>
-    <loc>http://sine-tea.com/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</loc>
+    <loc>http://sine-tea.com/tags/%E9%95%BF%E5%89%96/</loc>
     <lastmod>2024-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://sine-tea.com/tags/%E9%95%BF%E5%89%96/</loc>
+    <loc>http://sine-tea.com/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2024-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -133,7 +133,7 @@
   </url>
   
   <url>
-    <loc>http://sine-tea.com/categories/OI/%E4%BD%9C%E9%A2%98/</loc>
+    <loc>http://sine-tea.com/categories/OI/%E4%B8%93%E9%A1%B9%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2024-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -147,13 +147,6 @@
   </url>
   
   <url>
-    <loc>http://sine-tea.com/categories/%E9%B2%9C%E8%8A%B1/</loc>
-    <lastmod>2024-10-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://sine-tea.com/categories/OI/%E9%A2%98%E8%A7%A3/</loc>
     <lastmod>2024-10-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -161,7 +154,14 @@
   </url>
   
   <url>
-    <loc>http://sine-tea.com/categories/OI/%E4%B8%93%E9%A1%B9%E6%80%BB%E7%BB%93/</loc>
+    <loc>http://sine-tea.com/categories/%E9%B2%9C%E8%8A%B1/</loc>
+    <lastmod>2024-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://sine-tea.com/categories/OI/%E4%BD%9C%E9%A2%98/</loc>
     <lastmod>2024-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
