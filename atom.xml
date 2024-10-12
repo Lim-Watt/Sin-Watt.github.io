@@ -3,11 +3,11 @@
   <title>正弦慢卷</title>
   
   <subtitle>来杯竹叶清。 | 请坐。</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="http://sine-tea.com/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="http://sine-tea.com/"/>
   <updated>2024-10-10T01:45:49.781Z</updated>
-  <id>http://example.com/</id>
+  <id>http://sine-tea.com/</id>
   
   <author>
     <name>渊明</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>题解 [省选联考 2020 B 卷] 消息传递</title>
-    <link href="http://example.com/article/4cd9b5e7.html"/>
-    <id>http://example.com/article/4cd9b5e7.html</id>
+    <link href="http://sine-tea.com/article/4cd9b5e7.html"/>
+    <id>http://sine-tea.com/article/4cd9b5e7.html</id>
     <published>2024-10-07T09:49:49.000Z</published>
     <updated>2024-10-10T01:45:49.781Z</updated>
     
@@ -33,19 +33,45 @@
     
     
     
-    <category term="OI" scheme="http://example.com/categories/OI/"/>
+    <category term="OI" scheme="http://sine-tea.com/categories/OI/"/>
     
-    <category term="题解" scheme="http://example.com/categories/OI/%E9%A2%98%E8%A7%A3/"/>
+    <category term="题解" scheme="http://sine-tea.com/categories/OI/%E9%A2%98%E8%A7%A3/"/>
     
     
-    <category term="长剖" scheme="http://example.com/tags/%E9%95%BF%E5%89%96/"/>
+    <category term="长剖" scheme="http://sine-tea.com/tags/%E9%95%BF%E5%89%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>鱼二</title>
+    <link href="http://sine-tea.com/article/ae45ca2a.html"/>
+    <id>http://sine-tea.com/article/ae45ca2a.html</id>
+    <published>2024-09-21T13:38:49.000Z</published>
+    <updated>2024-10-12T09:12:12.785Z</updated>
+    
+    <content type="html"><![CDATA[<p>中秋放假，从八月十二的下午六点放到八月十四的早上八点。</p><p>十二日下午，一放学，一家人就开车到了 【someplace】。</p><p>环境一下就不一样了。是树，是山，看青翠的一片；是鸟，是虫，听空灵而悠远；是水，是风，在清凉的江畔。已入夜，不忍打开手电；浅望月，可惜尚未成园。</p><p>十三日早期钓鱼。再写“水清鱼若飞”的“《小石潭记》文”难免俗套。何不松口气，醉情这山水之美。</p><p>雨是踮着脚走来的，但水面上漾开的脚步暴露了它的行踪。雨急了，于是，雨急了，在天地间放肆自己的小情绪。这却是打搅了江水的梦，江水也哗的闹起来。竟分辨不开扑下的雨点和跃起的水花了。一时间，耳畔仅得水声，眼前尽是水汽。天地因水而交融、交溶，连我一起。不见对岸了。</p><p>小情绪发完了，起床气闹过了，天地重新明朗起来。恍然发现对岸山腰一圈玉带，是水在天上流吧。</p><p>午后，雨又吵醒了午睡的江……</p><p>没留神，今天的鱼钓得过多了呀，真是醉过，醉过。</p><div class="tag-plugin poetry"><div class="content"><div class="title">八月十三午后渔歌</div><div class="meta"><span>渊明</span></div><div class="body"><p>醒时仍彷徨，青山绿水旁。秋清风凉分外爽。渔歌早起悠扬。<br />中秋欠两日，天阴星辰稀。赏月未圆不是时。诗人已圆闲心。</p></div></div></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;中秋放假，从八月十二的下午六点放到八月十四的早上八点。&lt;/p&gt;
+&lt;p&gt;十二日下午，一放学，一家人就开车到了 【someplace】。&lt;/p&gt;
+&lt;p&gt;环境一下就不一样了。是树，是山，看青翠的一片；是鸟，是虫，听空灵而悠远；是水，是风，在清凉的江畔。已入夜，不忍打开手电；浅望月</summary>
+      
+    
+    
+    
+    <category term="鲜花" scheme="http://sine-tea.com/categories/%E9%B2%9C%E8%8A%B1/"/>
+    
+    
+    <category term="生活记录" scheme="http://sine-tea.com/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/"/>
     
   </entry>
   
   <entry>
     <title>字符串</title>
-    <link href="http://example.com/article/fc81fbfd.html"/>
-    <id>http://example.com/article/fc81fbfd.html</id>
+    <link href="http://sine-tea.com/article/fc81fbfd.html"/>
+    <id>http://sine-tea.com/article/fc81fbfd.html</id>
     <published>2024-08-18T12:13:36.000Z</published>
     <updated>2024-09-07T08:56:30.464Z</updated>
     
@@ -67,17 +93,17 @@ AC 自</summary>
     
     
     
-    <category term="OI" scheme="http://example.com/categories/OI/"/>
+    <category term="OI" scheme="http://sine-tea.com/categories/OI/"/>
     
-    <category term="专项总结" scheme="http://example.com/categories/OI/%E4%B8%93%E9%A1%B9%E6%80%BB%E7%BB%93/"/>
+    <category term="专项总结" scheme="http://sine-tea.com/categories/OI/%E4%B8%93%E9%A1%B9%E6%80%BB%E7%BB%93/"/>
     
     
   </entry>
   
   <entry>
     <title>中山集训小结</title>
-    <link href="http://example.com/article/f4e98d9.html"/>
-    <id>http://example.com/article/f4e98d9.html</id>
+    <link href="http://sine-tea.com/article/f4e98d9.html"/>
+    <id>http://sine-tea.com/article/f4e98d9.html</id>
     <published>2024-08-18T11:10:56.000Z</published>
     <updated>2024-09-07T08:58:57.292Z</updated>
     
@@ -95,17 +121,17 @@ AC 自</summary>
     
     
     
-    <category term="OI" scheme="http://example.com/categories/OI/"/>
+    <category term="OI" scheme="http://sine-tea.com/categories/OI/"/>
     
-    <category term="游记" scheme="http://example.com/categories/OI/%E6%B8%B8%E8%AE%B0/"/>
+    <category term="游记" scheme="http://sine-tea.com/categories/OI/%E6%B8%B8%E8%AE%B0/"/>
     
     
   </entry>
   
   <entry>
     <title>考前复习</title>
-    <link href="http://example.com/article/bacf667.html"/>
-    <id>http://example.com/article/bacf667.html</id>
+    <link href="http://sine-tea.com/article/bacf667.html"/>
+    <id>http://sine-tea.com/article/bacf667.html</id>
     <published>2024-07-27T07:17:49.000Z</published>
     <updated>2024-08-20T03:00:54.199Z</updated>
     
@@ -120,15 +146,15 @@ AC 自</summary>
     
     
     
-    <category term="OI" scheme="http://example.com/categories/OI/"/>
+    <category term="OI" scheme="http://sine-tea.com/categories/OI/"/>
     
     
   </entry>
   
   <entry>
     <title>任务清单</title>
-    <link href="http://example.com/article/f2309c58.html"/>
-    <id>http://example.com/article/f2309c58.html</id>
+    <link href="http://sine-tea.com/article/f2309c58.html"/>
+    <id>http://sine-tea.com/article/f2309c58.html</id>
     <published>2024-07-27T07:10:49.000Z</published>
     <updated>2024-08-20T03:00:54.199Z</updated>
     
@@ -144,15 +170,15 @@ AC 自</summary>
     
     
     
-    <category term="OI" scheme="http://example.com/categories/OI/"/>
+    <category term="OI" scheme="http://sine-tea.com/categories/OI/"/>
     
     
   </entry>
   
   <entry>
     <title>作题笔记</title>
-    <link href="http://example.com/article/db4c6ac.html"/>
-    <id>http://example.com/article/db4c6ac.html</id>
+    <link href="http://sine-tea.com/article/db4c6ac.html"/>
+    <id>http://sine-tea.com/article/db4c6ac.html</id>
     <published>2024-07-21T23:58:00.000Z</published>
     <updated>2024-08-20T03:00:54.199Z</updated>
     
@@ -167,17 +193,17 @@ AC 自</summary>
     
     
     
-    <category term="OI" scheme="http://example.com/categories/OI/"/>
+    <category term="OI" scheme="http://sine-tea.com/categories/OI/"/>
     
-    <category term="作题" scheme="http://example.com/categories/OI/%E4%BD%9C%E9%A2%98/"/>
+    <category term="作题" scheme="http://sine-tea.com/categories/OI/%E4%BD%9C%E9%A2%98/"/>
     
     
   </entry>
   
   <entry>
     <title>鱼一</title>
-    <link href="http://example.com/article/95c5e483.html"/>
-    <id>http://example.com/article/95c5e483.html</id>
+    <link href="http://sine-tea.com/article/95c5e483.html"/>
+    <id>http://sine-tea.com/article/95c5e483.html</id>
     <published>2024-07-21T13:38:49.000Z</published>
     <updated>2024-09-07T08:57:37.734Z</updated>
     
@@ -193,17 +219,17 @@ AC 自</summary>
     
     
     
-    <category term="鲜花" scheme="http://example.com/categories/%E9%B2%9C%E8%8A%B1/"/>
+    <category term="鲜花" scheme="http://sine-tea.com/categories/%E9%B2%9C%E8%8A%B1/"/>
     
     
-    <category term="生活记录" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/"/>
+    <category term="生活记录" scheme="http://sine-tea.com/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/"/>
     
   </entry>
   
   <entry>
     <title>雨与骑行</title>
-    <link href="http://example.com/article/ae73c77e.html"/>
-    <id>http://example.com/article/ae73c77e.html</id>
+    <link href="http://sine-tea.com/article/ae73c77e.html"/>
+    <id>http://sine-tea.com/article/ae73c77e.html</id>
     <published>2024-07-14T14:14:00.000Z</published>
     <updated>2024-09-07T08:57:33.602Z</updated>
     
@@ -219,10 +245,10 @@ AC 自</summary>
     
     
     
-    <category term="鲜花" scheme="http://example.com/categories/%E9%B2%9C%E8%8A%B1/"/>
+    <category term="鲜花" scheme="http://sine-tea.com/categories/%E9%B2%9C%E8%8A%B1/"/>
     
     
-    <category term="生活记录" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/"/>
+    <category term="生活记录" scheme="http://sine-tea.com/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/"/>
     
   </entry>
   
