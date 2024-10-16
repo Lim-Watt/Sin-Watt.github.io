@@ -20,20 +20,18 @@
   <title>题解 [省选联考 2020 B 卷] 消息传递 - 正弦慢卷</title>
 
   
-    <meta name="description" content="小了。数据范围小了。 省流： 长剖做法，全网首发，最优拿下，把某点分治吊杀。 纵然 O(nn)O(n\sqrt{n})O(nn​)，无畏 2×1062\times 10^62×106。   长链剖分属于树链剖分的一种。不过重儿子是子树深度最大的那个儿子（称为长儿子）。 长剖性质有：  长链的长度之和为 O(n)O(n)O(n)。 对于树上的任何一个点跳长链到根，需要经过不超过 O(n)O(\sqr">
+    <meta name="description" content="省流： 长剖做法，全网首发，最优拿下，把某点分治吊杀。  实际上卡满的话没有点分治快。  长链剖分属于树链剖分的一种。不过重儿子是子树深度最大的那个儿子（称为长儿子）。 长剖性质有：  长链的长度之和为 O(n)O(n)O(n)。 对于树上的任何一个点跳长链到根，需要经过不超过 O(n)O(\sqrt{n})O(n​) 条长链。长链的长度依次为 1,2,3,⋯ ,n1,2,3,\cdots,\sq">
 <meta property="og:type" content="article">
 <meta property="og:title" content="题解 [省选联考 2020 B 卷] 消息传递">
 <meta property="og:url" content="http://sine-tea.com/article/4cd9b5e7.html">
 <meta property="og:site_name" content="正弦慢卷">
-<meta property="og:description" content="小了。数据范围小了。 省流： 长剖做法，全网首发，最优拿下，把某点分治吊杀。 纵然 O(nn)O(n\sqrt{n})O(nn​)，无畏 2×1062\times 10^62×106。   长链剖分属于树链剖分的一种。不过重儿子是子树深度最大的那个儿子（称为长儿子）。 长剖性质有：  长链的长度之和为 O(n)O(n)O(n)。 对于树上的任何一个点跳长链到根，需要经过不超过 O(n)O(\sqr">
+<meta property="og:description" content="省流： 长剖做法，全网首发，最优拿下，把某点分治吊杀。  实际上卡满的话没有点分治快。  长链剖分属于树链剖分的一种。不过重儿子是子树深度最大的那个儿子（称为长儿子）。 长剖性质有：  长链的长度之和为 O(n)O(n)O(n)。 对于树上的任何一个点跳长链到根，需要经过不超过 O(n)O(\sqrt{n})O(n​) 条长链。长链的长度依次为 1,2,3,⋯ ,n1,2,3,\cdots,\sq">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://bu.dusays.com/2024/10/07/6703e6ed4330f.png">
 <meta property="article:published_time" content="2024-10-07T09:49:49.000Z">
-<meta property="article:modified_time" content="2024-10-10T01:45:49.781Z">
+<meta property="article:modified_time" content="2024-10-16T12:10:02.801Z">
 <meta property="article:author" content="渊明">
 <meta property="article:tag" content="长剖">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://bu.dusays.com/2024/10/07/6703e6ed4330f.png">
   
   
   
@@ -64,7 +62,7 @@
   <div class="content">
     <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a>
 <span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/OI/">OI</a> <span class="sep"></span> <a class="cap breadcrumb-link" href="/categories/OI/%E9%A2%98%E8%A7%A3/">题解</a></div>
-<div class="flex-row" id="post-meta"><a class="author" href="/author/S/index.html">Sin Watt</a><span class="sep"></span><span class="text created"><time datetime="2024-10-07T09:49:49.000Z">2024-10-07</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2024-10-10T01:45:49.781Z">2024-10-10</time></span></div></div></div>
+<div class="flex-row" id="post-meta"><a class="author" href="/author/S/index.html">Sin Watt</a><span class="sep"></span><span class="text created"><time datetime="2024-10-07T09:49:49.000Z">2024-10-07</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2024-10-16T12:10:02.801Z">2024-10-16</time></span></div></div></div>
     
     <div class="bottom only-title">
       
@@ -75,22 +73,9 @@
     </div>
     
   </div>
-  </div><article class="md-text content"><div class="tag-plugin quot"><p class="content" type="text"><span class="empty"></span><span class="text">小了。数据范围小了。</span><span class="empty"></span></p></div>
-<p>省流：</p>
-<del>长剖做法，全网首发，最优拿下，把某点分治吊杀。</del>
-<p>纵然 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mi>n</mi><msqrt><mi>n</mi></msqrt><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(n\sqrt{n})</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.05028em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord mathnormal">n</span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8002800000000001em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord mathnormal">n</span></span></span><span style="top:-2.76028em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702
-c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,-10,-9.5,-14
-c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54
-c44.2,-33.3,65.8,-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10
-s173,378,173,378c0.7,0,35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429
-c69,-144,104.5,-217.7,106.5,-221
-l0 -0
-c5.3,-9.3,12,-14,20,-14
-H400000v40H845.2724
-s-225.272,467,-225.272,467s-235,486,-235,486c-2.7,4.7,-9,7,-19,7
-c-6,0,-10,-1,-12,-3s-194,-422,-194,-422s-65,47,-65,47z
-M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.23972em;"><span></span></span></span></span></span><span class="mclose">)</span></span></span></span>，无畏 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn><mo>×</mo><mn>1</mn><msup><mn>0</mn><mn>6</mn></msup></mrow><annotation encoding="application/x-tex">2\times 10^6</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span></span></span></span></span></span></span></span>。</p>
-<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://bu.dusays.com/2024/10/07/6703e6ed4330f.png" data-fancybox="true"/></div></div>
+  </div><article class="md-text content"><p><strong>省流：</strong></p>
+<del>长剖做法，全网首发，最优拿下，把某点分治吊杀。</del> 
+<p>实际上卡满的话没有点分治快。</p>
 <hr />
 <p>长链剖分属于树链剖分的一种。不过重儿子是<strong>子树深度</strong>最大的那个儿子（称为长儿子）。</p>
 <p>长剖性质有：</p>
