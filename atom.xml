@@ -6,7 +6,7 @@
   <link href="http://sine-tea.com/atom.xml" rel="self"/>
   
   <link href="http://sine-tea.com/"/>
-  <updated>2024-10-16T12:10:02.801Z</updated>
+  <updated>2024-10-28T07:14:09.275Z</updated>
   <id>http://sine-tea.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CSP-S-2024</title>
+    <link href="http://sine-tea.com/article/2752e66e.html"/>
+    <id>http://sine-tea.com/article/2752e66e.html</id>
+    <published>2024-10-28T07:09:56.000Z</published>
+    <updated>2024-10-28T07:14:09.275Z</updated>
+    
+    <content type="html"><![CDATA[<p>100 + 100 + 0 + 0</p><p>开考一个小时多没看题，在捣鼓虚拟机、还原 NOI LINUX 配置、背诵缺省源。</p><p>之前老师让研究 VirtualBox 的时候我没管，于是吃了点亏，多花了一点时间。</p><p>默写缺省源的时候写了一些很复杂的东西（之前习惯用自己写的输入输出、以后考虑使用 cin、cout。</p><p>然后第一题签，应该没问题。</p><p>第二题稍微多抠了一点细节，没什么大问题。</p><p>第三题开写的时候比赛还有一个半小时，当时想起了一道加强版的题（那题是网络流），于是想复杂了，花了半个小时才想出做法，半个小时写出代码，但不知道哪儿有点问题，最后半个小时又不敢一直调题，于是就没调出来。</p><p>当时觉得 T3 调的出来、T4 暴力不好写于是就没写，有点吃亏。</p><p>简单总结就是准备不够充分。心态和发挥没什么问题。</p><p>所以</p><ol><li>VirtualBox 要重新看一遍。自己还是要装一个。考场发现那个虚拟机有三个问题待解决：</li></ol><ul><li>VirtualBox 剪贴板不同步。</li><li>VirtualBox 占用了 <kbd>右Ctrl</kbd>。</li><li>他那个虚拟机 <code>sudo</code> 命令用不了。</li></ul><ol start="2"><li>简化缺省源，没必要的东西就不要写了。我想快读快写应该还是用不到的。</li><li>把 T3 补了。虽然是简单唐氏题，但是一定要调出来，不然晚上睡不好。</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;100 + 100 + 0 + 0&lt;/p&gt;
+&lt;p&gt;开考一个小时多没看题，在捣鼓虚拟机、还原 NOI LINUX 配置、背诵缺省源。&lt;/p&gt;
+&lt;p&gt;之前老师让研究 VirtualBox 的时候我没管，于是吃了点亏，多花了一点时间。&lt;/p&gt;
+&lt;p&gt;默写缺省源的时候写了一些很复杂</summary>
+      
+    
+    
+    
+    <category term="OI" scheme="http://sine-tea.com/categories/OI/"/>
+    
+    <category term="游记" scheme="http://sine-tea.com/categories/OI/%E6%B8%B8%E8%AE%B0/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>题解 [省选联考 2020 B 卷] 消息传递</title>
