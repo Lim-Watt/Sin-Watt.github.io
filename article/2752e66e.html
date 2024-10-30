@@ -28,7 +28,7 @@
 <meta property="og:description" content="100 + 100 + 0 + 0 开考一个小时多没看题，在捣鼓虚拟机、还原 NOI LINUX 配置、背诵缺省源。 之前老师让研究 VirtualBox 的时候我没管，于是吃了点亏，多花了一点时间。 默写缺省源的时候写了一些很复杂的东西（之前习惯用自己写的输入输出、以后考虑使用 cin、cout。 然后第一题签，应该没问题。 第二题稍微多抠了一点细节，没什么大问题。 第三题开写的时候比赛还有一个">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-10-28T07:09:56.000Z">
-<meta property="article:modified_time" content="2024-10-28T07:14:09.275Z">
+<meta property="article:modified_time" content="2024-10-30T13:17:08.121Z">
 <meta property="article:author" content="渊明">
 <meta name="twitter:card" content="summary">
   
@@ -61,7 +61,7 @@
   <div class="content">
     <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a>
 <span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/OI/">OI</a> <span class="sep"></span> <a class="cap breadcrumb-link" href="/categories/OI/%E6%B8%B8%E8%AE%B0/">游记</a></div>
-<div class="flex-row" id="post-meta"><a class="author" href="/author/S/index.html">Sin Watt</a><span class="sep"></span><span class="text created"><time datetime="2024-10-28T07:09:56.000Z">2024-10-28</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2024-10-28T07:14:09.275Z">2024-10-28</time></span></div></div></div>
+<div class="flex-row" id="post-meta"><a class="author" href="/author/S/index.html">Sin Watt</a><span class="sep"></span><span class="text created"><time datetime="2024-10-28T07:09:56.000Z">2024-10-28</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2024-10-30T13:17:08.121Z">2024-10-30</time></span></div></div></div>
     
     <div class="bottom only-title">
       
@@ -83,17 +83,79 @@
 <p>简单总结就是准备不够充分。心态和发挥没什么问题。</p>
 <p>所以</p>
 <ol>
-<li>VirtualBox 要重新看一遍。自己还是要装一个。考场发现那个虚拟机有三个问题待解决：</li>
-</ol>
+<li>VirtualBox 要重新看一遍。自己还是要装一个。考场发现那个虚拟机有三个问题待解决：
 <ul>
-<li>VirtualBox 剪贴板不同步。</li>
-<li>VirtualBox 占用了 <kbd>右Ctrl</kbd>。</li>
-<li>他那个虚拟机 <code>sudo</code> 命令用不了。</li>
+<li>VirtualBox 剪贴板不同步。              ( (顶栏 -&gt; 设备) / (设置 -&gt; 常规 -&gt; 高级) -&gt; 共享剪贴板 -&gt; 双向)</li>
+<li>VirtualBox 占用了 <kbd>右Ctrl</kbd>。  (  顶栏 -&gt; 热键 -&gt; 虚拟电脑 -&gt; 主机组合键 )</li>
+<li>他那个虚拟机 <code>sudo</code> 命令用不了。        ( sb某学校  )</li>
 </ul>
-<ol start="2">
+</li>
 <li>简化缺省源，没必要的东西就不要写了。我想快读快写应该还是用不到的。</li>
 <li>把 T3 补了。虽然是简单唐氏题，但是一定要调出来，不然晚上睡不好。</li>
 </ol>
+<br>
+<table>
+  <thead>
+    <tr>
+      <th colspan="3" style = "font-size: 20px">
+       11 月计划
+      </th>
+    </tr>
+    <tr>
+      <th>时间</th>
+      <th>安排</th>
+      <th>方案</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-1 ～ 5</td>
+      <td>字符串上dp</td>
+      <td>绿到紫带 “字符串” 和 “dp” 标签的题</td>
+    </tr>
+    <tr>
+      <td>6 ～ 12</td>
+      <td>背包</td>
+      <td>绿到紫带 “背包” 标签的题</td>
+    </tr>
+    <tr>
+      <td rowspan="2">13 ～ 19</td>
+      <td rowspan="2">概率DP</td>
+      <td>
+        <a target="_blank" rel="noopener" href="https://www.luogu.com.cn/training/4922" data-href="https://www.luogu.com.cn/training/4922">
+          https://www.luogu.com.cn/training/4922
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a target="_blank" rel="noopener" href="https://www.luogu.com.cn/training/386704" data-href="https://www.luogu.com.cn/training/386704">
+          https://www.luogu.com.cn/training/386704
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>20 ～ 26</td>
+      <td>大ds</td>
+      <td>
+        <a target="_blank" rel="noopener" href="https://www.luogu.com.cn/discuss/981257" data-href="https://www.luogu.com.cn/discuss/981257">
+          正在求题
+        </a>
+    </tr>
+    <tr>
+      <td>27 ～ 29</td>
+      <td colspan="2">随机补漏</td>
+    </tr>
+  </tbody>
+</table>
+<style>
+  th {
+    text-align:center
+  }
+  td {
+    text-align:center
+  }
+</style>
 
 <div class="article-footer fs14">
     <section id="license">
@@ -103,7 +165,7 @@
     </section>
     </div>
 </article>
-<div class="related-wrap" id="read-next"><section class="body"><div class="item" id="prev"></div><div class="item" id="next"><div class="note">较早文章</div><a href="/article/4cd9b5e7.html">题解 [省选联考 2020 B 卷] 消息传递</a></div></section></div>
+<div class="related-wrap" id="read-next"><section class="body"><div class="item" id="prev"><div class="note">较新文章</div><a href="/article/c7bb6bf2.html">字符串上dp</a></div><div class="item" id="next"><div class="note">较早文章</div><a href="/article/4cd9b5e7.html">题解 [省选联考 2020 B 卷] 消息传递</a></div></section></div>
 
 
 
