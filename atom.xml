@@ -6,7 +6,7 @@
   <link href="http://sine-tea.com/atom.xml" rel="self"/>
   
   <link href="http://sine-tea.com/"/>
-  <updated>2024-10-30T14:02:07.025Z</updated>
+  <updated>2024-12-01T07:37:01.786Z</updated>
   <id>http://sine-tea.com/</id>
   
   <author>
@@ -17,13 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>NOIP2024</title>
+    <link href="http://sine-tea.com/article/49bfeb37.html"/>
+    <id>http://sine-tea.com/article/49bfeb37.html</id>
+    <published>2024-12-01T07:29:03.000Z</published>
+    <updated>2024-12-01T07:37:01.786Z</updated>
+    
+    <content type="html"><![CDATA[<p>简单总结一下。</p><p>难度感觉：还好。比昨年简单。</p><p>最大失误：没写 T4 暴力。</p><p>失误原因：分配给 T4 的时间少了。</p><h2 id="那时间都去哪儿了"><a class="markdownIt-Anchor" href="#那时间都去哪儿了"></a> 那时间都去哪儿了？</h2><h3 id="t1"><a class="markdownIt-Anchor" href="#t1"></a> T1</h3><p>总用时 1h。期望 100。</p><p>虽然比较顺利，但速度还是慢了</p><p>改改调调、贪心思路完善了 3 次才过大样例。</p><p>这种难度在贪心思路和结论的题，搞人心态、浪费时间、容易fst。</p><p>需要多加 cf、at 比赛的练习。以后 abc 也要打了，不能犯懒了，这种题要最多 20 分钟要过掉。</p><h3 id="t2"><a class="markdownIt-Anchor" href="#t2"></a> T2</h3><p>总用时 1h。期望 100</p><p>看错题了，对着一个难度超过黑的东西比划了半个小时……</p><del>还好，这次只花半个小时就反应过来了</del><p>以后读题还是要读两遍</p><h3 id="t3"><a class="markdownIt-Anchor" href="#t3"></a> T3</h3><p>总用时 2h。</p><p>题目定位是带有浓浓结论气息的构造答案型的计数题。属于我擅长的类型。看到后比较兴奋，以为前 40 有望。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;简单总结一下。&lt;/p&gt;
+&lt;p&gt;难度感觉：还好。比昨年简单。&lt;/p&gt;
+&lt;p&gt;最大失误：没写 T4 暴力。&lt;/p&gt;
+&lt;p&gt;失误原因：分配给 T4 的时间少了。&lt;/p&gt;
+&lt;h2 id=&quot;那时间都去哪儿了&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#那</summary>
+      
+    
+    
+    
+    <category term="OI" scheme="http://sine-tea.com/categories/OI/"/>
+    
+    <category term="游记" scheme="http://sine-tea.com/categories/OI/%E6%B8%B8%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>字符串上dp</title>
     <link href="http://sine-tea.com/article/c7bb6bf2.html"/>
     <id>http://sine-tea.com/article/c7bb6bf2.html</id>
     <published>2024-10-30T13:22:36.000Z</published>
-    <updated>2024-10-30T14:02:07.025Z</updated>
+    <updated>2024-10-31T13:43:27.913Z</updated>
     
-    <content type="html"><![CDATA[<div class="tag-plugin link dis-select"><a class="link-card plain" title="" href="https://www.cnblogs.com/hkttg/p/10162391.html" target="_blank" rel="external nofollow noopener noreferrer" cardlink autofill="title,icon"><div class="left"><span class="title">https://www.cnblogs.com/hkttg/p/10162391.html</span><span class="cap link footnote">https://www.cnblogs.com/hkttg/p/10162391.html</span></div><div class="right"><div class="lazy img" data-bg="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/link/8f277b4ee0ecd.svg"></div></div></a></div><div class="tag-plugin link dis-select"><a class="link-card plain" title="" href="https://blog.csdn.net/qq_51282224/article/details/122783438" target="_blank" rel="external nofollow noopener noreferrer" cardlink autofill="title,icon"><div class="left"><span class="title">https://blog.csdn.net/qq_51282224/article/details/122783438</span><span class="cap link footnote">https://blog.csdn.net/qq_51282224/article/details/122783438</span></div><div class="right"><div class="lazy img" data-bg="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/link/8f277b4ee0ecd.svg"></div></div></a></div><div class="tag-plugin link dis-select"><a class="link-card plain" title="" href="https://www.luogu.com.cn/training/638485" target="_blank" rel="external nofollow noopener noreferrer" cardlink autofill="title,icon"><div class="left"><span class="title">https://www.luogu.com.cn/training/638485</span><span class="cap link footnote">https://www.luogu.com.cn/training/638485</span></div><div class="right"><div class="lazy img" data-bg="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/link/8f277b4ee0ecd.svg"></div></div></a></div>]]></content>
+    <content type="html"><![CDATA[<div class="tag-plugin link dis-select"><a class="link-card plain" title="" href="https://www.cnblogs.com/hkttg/p/10162391.html" target="_blank" rel="external nofollow noopener noreferrer" cardlink autofill="title,icon"><div class="left"><span class="title">https://www.cnblogs.com/hkttg/p/10162391.html</span><span class="cap link footnote">https://www.cnblogs.com/hkttg/p/10162391.html</span></div><div class="right"><div class="lazy img" data-bg="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/link/8f277b4ee0ecd.svg"></div></div></a></div><div class="tag-plugin link dis-select"><a class="link-card plain" title="" href="https://blog.csdn.net/qq_51282224/article/details/122783438" target="_blank" rel="external nofollow noopener noreferrer" cardlink autofill="title,icon"><div class="left"><span class="title">https://blog.csdn.net/qq_51282224/article/details/122783438</span><span class="cap link footnote">https://blog.csdn.net/qq_51282224/article/details/122783438</span></div><div class="right"><div class="lazy img" data-bg="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/link/8f277b4ee0ecd.svg"></div></div></a></div><div class="tag-plugin link dis-select"><a class="link-card plain" title="" href="https://www.luogu.com.cn/training/638485" target="_blank" rel="external nofollow noopener noreferrer" cardlink autofill="title,icon"><div class="left"><span class="title">https://www.luogu.com.cn/training/638485</span><span class="cap link footnote">https://www.luogu.com.cn/training/638485</span></div><div class="right"><div class="lazy img" data-bg="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/link/8f277b4ee0ecd.svg"></div></div></a></div><h2 id="回文"><a class="markdownIt-Anchor" href="#回文"></a> 回文</h2><ul><li><p>小区间更新大区间</p></li><li><p>因为原串和反串的 LCS（最长公共子序列），就等同于在原串中有 LCS 个字符是对应相等的。回文差异就是那些对应不相等的位置。</p><p>于是一个回文问题就变成子序列问题 神奇</p></li></ul><h2 id="uva1630-串折叠-folding"><a class="markdownIt-Anchor" href="#uva1630-串折叠-folding"></a> UVA1630 串折叠 Folding</h2><p>sb UVA</p>]]></content>
     
     
       
